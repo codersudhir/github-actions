@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import axios from "axios"
 import './App.css';
-import { Button, ButtonGroup, Flex, Heading, Spacer,Box, Grid, GridItem,Text,Image } from '@chakra-ui/react'
+import { Button, ButtonGroup, Flex, Grid, GridItem,Text,Image } from '@chakra-ui/react'
 import { useEffect, useState } from 'react';
 
 const getdata=(querry)=>{
